@@ -1,3 +1,17 @@
+#rangeBar
+{
+	margin:auto;
+	margin-top: 25px;
+	width:45%;
+	/*border: 2px solid;
+	border-radius: 8px;*/
+}
+#filter
+{
+	float:left;
+	padding: 20px;
+	width:25%;	
+}
 #img_header
 {
 	float: left;
@@ -11,10 +25,12 @@
 	size: 34px;
 	font-family: verdana;
 	color:green;
+	text-shadow: 2px 2px 2px #000000;
 }
 #follow_text
 {
 	margin-top: 20px;
+	text-shadow: 1px 1px 1px #000000;
 	margin-left: 15px;
 	float: left;
 	size: 14px;
