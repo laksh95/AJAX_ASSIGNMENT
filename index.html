@@ -18,11 +18,13 @@
 		</fieldset>
 	</div>
 	<div class="main_window">
-		<div id="on_search">
+		<div id="on_search" style="height:100%;">
 			<input type="text" placeholder="Seach (by Company)" id="search_company">
 			<input type="text" placeholder="Seach (by language)" id="search_name">
-			<ul id="search_list">
-			</ul>
+			<br/>
+			<label id="error"></label>
+<!-- 			<ul id="search_list">
+			</ul> -->
 		</div>
 		<div id="on_load">
 			<ul id="list">
@@ -35,8 +37,8 @@
 	</div>
 	<div id="filter">
 		<div id="rangeBar">
-   			<input type="range" min="0" max="1000" id="stars" step="2" value="0"/><br />
-   			<label for="stars" id="value"></label>
+   			<input type="range" min="0" max="1000" id="stars" step="1" value="0"/><br />
+   			<label for="stars" id="value" style="margin:auto;"></label>
 		</div>		
 	</div>
 

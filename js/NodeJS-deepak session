@@ -1,0 +1,33 @@
+Restful API: 
+	url to handler mapping, handler performs all the operations(process,etc)
+	ex. /getStudnet, then call func(){}
+	it initialises all the routes
+all functions and variables in javascript are in window scope.
+SOAP API serivces
+NODE.JS
+	NPM us open source
+	models are used
+	require() is like import
+	http and fs are provided by default
+	lodash is for array manipulation(not by default)
+	npm install lodash
+	node models folder is created
+	-g for global install
+	var x=require('lodash');
+	var file=require.find('path to the file');
+	exports.search(any name)=fiunction(){
+
+	}
+	var http=require('http');
+	http.createServer(port,func(req,res){
+
+	});
+	expressJS is npm library, uses http on the lower level
+	cluster module separates the requests to different cores
+	get: get the DATA
+	post: create a  new reeord
+	put: udpate the record
+	delete: delete a record
+	req.method: type of method
+	install POSTMAN
+	npm install lodash --save, will save 
